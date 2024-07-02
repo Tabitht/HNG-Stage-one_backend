@@ -31,6 +31,8 @@ img{
     width: auto;
     max-width: 75%;
     max-height: 50%;
+    display: block; 
+    margin: 0 auto
     border-radius: 15%;
 }
 .profileDetails{
