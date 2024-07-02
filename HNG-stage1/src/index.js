@@ -17,7 +17,7 @@ function updateTime() {
    
    
    
-   /** window.onload = function() {
+    /** window.onload = function() {
         var img = document.getElementById('myImage');
         
         if (img.naturalWidth && img.naturalHeight) {
@@ -32,4 +32,4 @@ function updateTime() {
         } else {
             console.log('The image does not have natural dimensions.');
         }
-    }; */
+    };*/ 
