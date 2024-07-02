@@ -1,0 +1,91 @@
+body{
+    background: radial-gradient(circle, #744c82 0%, #4E3357 26%, #281A2C 74%);
+}
+header{
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.container{
+    background-color: #26152b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 40px;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid;
+    color: white;
+}
+img{
+    height: auto;
+    width: auto;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15%;
+}
+.profileDetails{
+    font-size: 50px;
+}
+main{
+    background: radial-gradient(circle, #744c82 0%, #4E3357 26%, #281A2C 74%);
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+}
+.timeStamp{
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+.thanks{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    font-size: 35px;
+    background-color: #26152b;
+    border: solid;
+    color: white;
+    margin: auto;
+}
+a{
+    text-decoration: black;
+}
+@media(max-width: 760px){
+    .profileDetails{
+        font-size: 15px;   
+    }
+    main{
+        font-size: 18px;
+    }
+    .thanks{
+        font-size: 18px;
+    }
+    footer{
+        font-size: 20px;
+    }
+    .timeStamp{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
