@@ -26,14 +26,16 @@ h3{
     border: solid;
     color: white;
 }
+.image_container{
+    max-width: 75%;
+    max-height:50%;
+    border-radius: 15%;
+}
 img{
     height: auto;
     width: auto;
-    max-width: 75%;
-    max-height: 50%;
     display: block; 
     margin: 0 auto
-    border-radius: 15%;
 }
 .profileDetails{
     font-size: 50px;
