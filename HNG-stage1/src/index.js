@@ -17,7 +17,7 @@ function updateTime() {
    
    
    
-     /** window.onload = function() {
+     /**  window.onload = function() {
         var img = document.getElementById('myImage');
         
         if (img.naturalWidth && img.naturalHeight) {

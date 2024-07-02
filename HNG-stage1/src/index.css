@@ -11,7 +11,7 @@ h1{
 }
 h3{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 }
 .container{
@@ -34,11 +34,11 @@ img{
     border-radius: 15px;
 }
 .profileDetails{
-    font-size: 50px;
+    font-size: 30px;
 }
 main{
     background: radial-gradient(circle, #744c82 0%, #4E3357 26%, #281A2C 74%);
-    font-size: 40px;
+    font-size: 25px;
     padding: 20px;
     margin: 20px;
     color: black;
@@ -51,11 +51,11 @@ main{
 .thanks{
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 25px;
 }
 footer{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     background-color: #26152b;
     border: solid;
     color: white;
@@ -67,6 +67,9 @@ a{
 @media(max-width: 760px){
     .profileDetails{
         font-size: 15px;   
+    }
+    .container{
+        margin: 1px;
     }
     main{
         font-size: 18px;
